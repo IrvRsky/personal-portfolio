@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>My Portfolio</title>
+  </head>
+  <body class="fade-in">
+    <!-- SVG -->
+
+    <!-- NAVBAR -->
+    <!-- <header class="">
+      <div class="logo">
+        <a href="">MyLogo</a>
+      </div>
+      <nav class="d-flex">
+        <li><a href="#">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#skill">skills</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#resume">resume</a></li>
+        <li><a href="#contact">contact</a></li>
+      </nav>
+    </header> -->
+    <header>
+      <div class="logo">
+        <a href=""><img src="./img/my logo.png" alt=""></a>
+      </div>
+      <!-- Hamburger Menu -->
+      <div class="hamburger-menu">
+        <a href="#" id="hamburger-icon"><i class="fas fa-bars"></i></a>
+      </div>
+      <!-- Responsive Menu -->
+      <nav class="responsive-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </nav>
+      <!-- Main Menu -->
+      <nav>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </nav>
+    </header>    
+
+    <!-- HERO: HOMEPAGE -->
+    <div class="hero container">
+      <div class="container d-flex flex-column justify-content-center ps-5">
+        <p class="welcome text-uppercase fs-6">welcome to my website</p>
+        <div class="intro">
+          <span class="text first-text fw-bold">Hi, I'm Irvansius Risky a</span>
+          <span class="text sec-text fw-bold"></span>
+        </div>
+        <div class="work m-0">
+          <div class="school lh-sm">
+            <p class="text-capitalize fw-bold text-info">
+              Tanjungpura University
+            </p>
+            <p class="text-capitalize">computer systems engineering</p>
+          </div>
+          <div class="school lh-sm">
+            <p class="text-capitalize fw-bold text-info">
+              infinite learning
+            </p>
+            <p class="text-capitalize">web development & UI/UX designer</p>
+          </div>
+        </div>
+        <div class="my-resume">
+          <button type="button">
+            <a href="./CV/Personal_CV.pdf" download>download CV</a>
+          </button>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="my-image">
+          <img src="./img/me.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class=" reveal about container m-auto mb-0 p-5" id="about">
+      <div class="title-content d-flex gap-2 justify-content-center mb-4 border-top border-bottom">
+        <h2 class="text-info">about</h2>
+        <h2 class="text-white">me</h2>
+      </div>
+      <p class="m-auto text-center fs-6">
+        Born on June 20, 2003, in Pontianak city, and is the eldest of 3 siblings. Currently an active student at <b>Tanjungpura University Pontianak</b> since 2021. Has a calm personality and a great passion for <b>Video Games.</b>
+      </p>
+    </div>
+
+    <!-- MY SKILLS -->
+    <div class="reveal my-skill container m-auto mb-0 p-5" id="skills">
+      <div class="title-content d-flex gap-2 justify-content-center mb-4 border-top border-bottom">
+        <h2 class="text-info">my</h2>
+        <h2 class="text-white">skills</h2>
+      </div>
+      <div class=" p-4 d-flex gap-3 flex-wrap justify-content-center">
+        <div class="skill card p-0 border-0 border-bottom">
+          <div class="card-header d-flex align-items-center p-3 gap-3 bg-info">
+            <i class="fa-solid fa-globe fs-2 text-dark"></i>
+            <h5 class="text-capitalize text-dark">web development</h5>
+          </div>
+          <div class="card-body bg-dark">
+            <p class="card-text">Experienced in building a <b>Website</b> using HTML, CSS, Javascript programming language, and PHP, along with the assistance of several frameworks such as Bootstrap.</p>
+          </div>
+        </div>
+        <div class="skill card p-0 border-0 border-bottom">
+          <div class="card-header d-flex align-items-center p-3 gap-3 bg-info">
+            <i class="fa-solid fa-wand-magic-sparkles fs-2 text-dark"></i>
+            <h5 class="text-capitalize text-dark">Graphic Design</h5>
+          </div>
+            
+          <div class="card-body bg-dark">
+            <p class="card-text">Experienced in the field of <b>Graphic Design</b> using software such as Photoshop.</p>
+          </div>
+        </div>
+        <div class="skill card p-0 border-0 border-bottom">
+          <div class="card-header d-flex align-items-center p-3 gap-3 bg-info">
+            <i class="fa-solid fa-video fs-2 text-dark"></i>
+            <h5 class="text-capitalize text-dark">Video Editing</h5>
+          </div>
+            
+          <div class="card-body bg-dark">
+            <p class="card-text">Has the ability to operate <b>Software</b> for <b>Video Editing</b> needs such as After Effects and Adobe Premiere.</p>
+          </div>
+        </div>
+        <div class="skill card p-0 border-0 border-bottom">
+          <div class="card-header d-flex align-items-center p-3 gap-3 bg-info">
+            <i class="fa-solid fa-camera-retro fs-2 text-dark"></i>
+            <h5 class="text-capitalize text-dark">Photographer</h5>
+          </div>
+            
+          <div class="card-body bg-dark">
+            <p class="card-text">Experienced as a <b>Photographer</b> in an event or activity.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- MY PORTFOLIO -->
+    <div class="reveal my-portfolio container m-auto mb-0 p-5" id="portfolio">
+      <div class="title-content d-flex gap-2 justify-content-center mb-4 border-top border-bottom">
+        <h2 class="text-info">my</h2>
+        <h2 class="text-white">portfolio</h2>
+      </div>
+      <div class=" p-4 d-flex gap-3 flex-wrap justify-content-center align-items-center">
+        <a href="https://github.com/IrvRsky/manipulation-images.git" >
+          <div class="card">
+            <div class="portfolio-img">
+              <img src="./img/samurai.jpg" alt="">
+            </div>
+            <div class="card-body">
+              <h5>Photo Manipulation</h5>
+            <p>Design</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://github.com/IrvRsky/personal-portfolio.git">
+          <div class="card">
+            <div class="portfolio-img">
+              <img src="./img/personalWebsite.png" alt="">
+            </div>
+            <div class="card-body">
+              <h5>Personal Portfolio</h5>
+            <p>Website</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://github.com/IrvRsky/video-editing.git">
+          <div class="card">
+            <div class="portfolio-img">
+              <img src="./img/video.jpg" alt="">
+            </div>
+            <div class="card-body">
+              <h5>Video</h5>
+            <p>Video Editing</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      </div>
+    </div>
+
+    <!-- MY RESUME -->
+    <div class="reveal resume container m-auto mb-0 p-5" id="resume">
+      <div class="title-content d-flex gap-2 justify-content-center mb-4 border-top border-bottom">
+        <h2 class="text-info">my</h2>
+        <h2 class="text-white">resume</h2>
+      </div>
+      <div class="p-4 d-flex gap-5 flex-wrap justify-content-center">
+        <div class="education">
+          <h3 class="mb-4 text-info text-center">Education</h3>
+          <div class="card border-0 border-top border-bottom" style="max-width: 30rem;">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Student of Tanjungpura University</h5>
+              <h6 class="card-subtitle mt-1 mb-3  font-monospace">Student | <span class=" font-monospace">(2021 - Present)</span></h6>
+              <p class="card-text">Active student at Tanjungpura University Pontianak, majoring in <b>Computer System Engineering.</b></p>
+            </div>
+          </div>
+          <div class="card border-0 border-top border-bottom" style="max-width: 30rem;">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Participant Kampus Merdeka - Batch 6</h5>
+              <h6 class="card-subtitle mt-1 mb-3  font-monospace">Student | <span class=" font-monospace">(2024)</span></h6>
+              <p class="card-text">Participant in the Kampus Merdeka program <b>MSIB batch 6</b>, partnered with PT Kinema Syntrans Multimedia a.k.a <b>Infinite Learning.</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="organization">
+          <h3 class="mb-4 text-info text-center">Organization</h3>
+          <div class="card border-0 border-top border-bottom" style="max-width: 30rem;">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Screen XI</h5>
+              <h6 class="card-subtitle mt-1 mb-3  font-monospace">Staff | <span class=" font-monospace">(2021 - 2022)</span></h6>
+              <p class="card-text">Has experience as an <b>intern</b> in the field of <b>Publication and Documentation</b> within the Screen XI committee.</p>
+            </div>
+          </div>
+          <div class="card border-0 border-top border-bottom" style="max-width: 30rem;">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Siskom Cup 2022</h5>
+              <h6 class="card-subtitle mt-1 mb-3  font-monospace">Staff | <span class=" font-monospace">(2022 - 2023)</span></h6>
+              <p class="card-text">Has experience as a <b>core staff</b> in the field of <b>Publication and Documentation</b> in the Siskom Cup 2022 committee.</p>
+            </div>
+          </div>
+          <div class="card border-0 border-top border-bottom" style="max-width: 30rem;">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">BIOS 2023</h5>
+              <h6 class="card-subtitle mt-1 mb-3  font-monospace">Coordinator | <span class=" font-monospace">(2023 - 2024)</span></h6>
+              <p class="card-text">As a <b>coordinator</b> in the field of <b>Publication and Documentation</b> for the BIOS 2023 committee.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="reveal my-resume container m-auto mb-2 p-5" id="contact">
+      <div class="title-content d-flex gap-2 justify-content-center mb-4 border-top border-bottom">
+        <h2 class="text-info">contact</h2>
+        <h2 class="text-white">me</h2>
+      </div>
+      <div class=" p-4 d-flex gap-5 flex-wrap justify-content-center">
+        <div class="card border-0">
+          <div class="card-body d-flex gap-5 flex-wrap shadow-sm bg-dark">
+            <div class="whatsapp">
+              <div class="wa">
+                <h5 class="card-title text-white">Whatsapp</h5>
+              </div>
+              <a href="https://api.whatsapp.com/send/?phone=6285654902600&text&type=phone_number&app_absent=0" class="card-subtitle mt-1 mb-3 font-monospace text-decoration-none">+62-856-5490-2600</a>
+            </div>
+            <div class="email">
+              <div class="mail">
+                <h5 class="card-title text-white">Email</h5>
+              </div>
+              <a href="mailto:irvansiusrisky0@gmail.com" class="card-subtitle mt-1 mb-3 font-monospace text-decoration-none">irvansiusrisky0@gmail.com</a>
+            </div>
+            <div class="media-sosial">
+              <div class="medsos">
+                <h5 class="card-title text-white">Social Account</h5>
+              </div>
+              <div class="medsos-link d-flex gap-3">
+                <a href="https://github.com/IrvRsky" class="card-subtitle mt-1 mb-3 font-monospace text-decoration-none"><i class="fa-brands fa-github fs-5"></i></></a>
+              <a href="https://www.instagram.com/irvansrsky_/" class="card-subtitle mt-1 mb-3 font-monospace text-decoration-none"><i class="fa-brands fa-instagram fs-5"></i></></a>
+              <a href="https://www.linkedin.com/in/irvansius-risky-413570306/
+              " class="card-subtitle mt-1 mb-3 font-monospace text-decoration-none"><i class="fa-brands fa-linkedin-in fs-5"></i></></a>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid p-4 border-top d-flex justify-content-center">
+        <span>Irvansius Risky &copy; 2024 | All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <!-- SCROLL TO TOP -->
+    <button id="back-to-top-btn"><i class="fa-solid fa-square-caret-up fs-2"></i></button>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
