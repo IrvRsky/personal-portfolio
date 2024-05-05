@@ -18,6 +18,7 @@ $(document).ready(function () {
   // });
 });
 
+// REVEALS ITEM WHEN SCROLLING DOWN
 window.addEventListener("scroll", reveal);
 
 function reveal() {
@@ -47,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// SCROLL TO TOP
+//BUTTON SCROLL TO TOP
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 200) {
@@ -70,6 +71,7 @@ $(document).ready(function () {
   });
 });
 
+// TEXT
 const text = document.querySelector(".sec-text");
 const textLoad = () => {
   setTimeout(() => {
